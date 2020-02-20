@@ -1,4 +1,4 @@
-# digivox-challenge
+# Desafio Digivox
 Digivox Library Challenge
 
 Desafio Digivox – Loja de Aluguel de Livros 
