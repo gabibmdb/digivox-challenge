@@ -1,0 +1,10 @@
+//este arquivo serve para que o sequelize faça a conexão com o banco
+//através do path.resolve é possível setar o caminho absoluto
+
+const path = require('path');
+
+//a cada 'pasta' seguida de vírgula, se adentra a mais uma pasta
+module.exports = {
+    config: path.resolve(__dirname, 'src', 'config', 'database.js'),
+    'migrations-path': path.resolve(__dirname, 'src', 'database', 'migrations'),
+};
