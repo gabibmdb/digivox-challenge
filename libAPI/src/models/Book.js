@@ -10,6 +10,6 @@ class Book extends Model {
         sequelize 
         })
     }
-};
+}
 
 module.exports = Book;
